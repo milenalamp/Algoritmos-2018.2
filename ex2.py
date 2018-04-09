@@ -1,10 +1,12 @@
-i = 0
-antecessor = 0
-sucessor = 0
-
-while i < 10:
-    n = int(input("Digite 10 números para saber seu sucessor e antecessor: "))
-    sucessor = n + 1
-    antecessor = n - 1
-    i = i + 1
-    print("Número sucessor: ",sucessor,"Número antecessor: ",antecessor)
+n1 = int(input("Digite um número"))
+maior = n1
+menor = n2
+n2 = int(input("Digite um número"))
+if n1 > n2:
+    maior = n2
+if n1 == n2:
+    print("Os números são iguais")
+else:
+    if menor = n2:
+print (" Maior: "maior)
+    

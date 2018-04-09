@@ -1,11 +1,11 @@
-i = 0
-n = int(input("Digite um numero "))
+
+N1 = int(input("Digite um numero "))
+N2 = int(input("Digite um numero "))
+
 cont = 0
 
-while i < 10:
-    i = i + 1
-    soma = i + n
-    total = soma + 1
+while N1 >= N2:
+    N1 = N1 - N2
+    cont +=1
 
-
-    print("total =", soma)
+print("Quociente: {} | Resto {}".format(cont,N1))
