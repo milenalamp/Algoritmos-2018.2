@@ -1,15 +1,11 @@
-soma = 0
-valor = int(input("digite um valor: "))
-maior = valor
-menor = valor
+n = 10
+for i in range(n):
+    for j in range(n):
+        if i == j:
+            print("2 ", end="")
+        elif i > j:
+            print("0 ", end ="")
+        else:
+            print("1 ", end="")
 
-for i in range(4):
-	valor = int(input("digite um valor: "))
-
-	if valor > maior:
-		maior = valor
-	if valor < menor:
-		menor = valor
-	soma = menor + maior
-
-print("Maior{}, Menor {} Soma= {}".format(maior,menor,soma))
+    print()
