@@ -1,11 +1,16 @@
-ant = 0
-suc = 0
+mat = []
 
-num = int(input("Digite números inteiros: "))
+for y in range(4):
+    lista = []
 
-while num > 0:
+    for k in range(4):
+        n = int(input("Digite um número: [{}], [{}]".format(y,k)))
+        lista.append(n)
+    mat.append(lista)
 
-    ant = num - 1
-    suc = num + 1
+soma = 0
+for i in range (4):
+    for j in range(4):
+        soma += mat[i][i]
 
-    print("Antecessor: {}, Sucessor{}".format(ant,suc))
+print("Média = ", soma /16)
